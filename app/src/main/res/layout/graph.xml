@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/pasDePlein"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/pasDeGrph"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="visible"/>
+
+    <com.jjoe64.graphview.GraphView
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dip"
+        android:id="@+id/graph"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/buttonConso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/graph"
+        android:text="@string/conso"
+        android:onClick="hideDisplayConso"
+        android:layout_marginLeft="100dp"
+        />
+    <Button
+        android:id="@+id/buttonConso2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/graph"
+        android:layout_toRightOf="@+id/buttonConso"
+        android:text="@string/consoMoyenne"
+        android:onClick="hideDisplayConso2"
+        />
+    <Button
+        android:id="@+id/buttonPrix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/graph"
+        android:layout_toRightOf="@+id/buttonConso2"
+        android:text="@string/prixPlein"
+        android:onClick="hideDisplayPrix"
+        />
+    <Button
+        android:id="@+id/buttonKmage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/graph"
+        android:layout_toRightOf="@+id/buttonPrix"
+        android:text="Kilométrage"
+        android:onClick="hideDisplayKilometrage"
+        />
+
+
+
+</RelativeLayout>

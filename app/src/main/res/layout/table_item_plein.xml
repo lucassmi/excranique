@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:orientation="horizontal"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:id="@+id/rowPlein"
+    android:clickable="true"
+    android:focusable="true"
+    android:onClick="suppPlein">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:id="@+id/tvDatePlein"
+        android:layout_weight="1.3"
+        android:gravity="center"
+        android:background="@color/backgroundTable"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:id="@+id/tvkmageParc"
+        android:layout_weight="0.9"
+        android:gravity="center"
+        android:background="@color/backgroundTable"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:id="@+id/tvqttyPlein"
+        android:layout_weight="0.8"
+        android:gravity="center"
+        android:background="@color/backgroundTable"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:textSize="12sp"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:id="@+id/tvConso"
+        android:layout_weight="1.1"
+        android:gravity="center"
+        android:background="@color/backgroundTable"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:textSize="12sp"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:id="@+id/tvConso2"
+        android:layout_weight="1.1"
+        android:gravity="center"
+        android:background="@color/backgroundTable"
+        android:layout_marginTop="2dp"
+        android:textSize="12sp"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:id="@+id/idPlein"
+        android:layout_weight="1.1"
+        android:gravity="center"
+        android:background="@color/backgroundTable"
+        android:layout_marginTop="2dp"
+        android:textSize="12sp"
+        android:visibility="gone"/>
+
+</TableRow>

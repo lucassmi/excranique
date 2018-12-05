@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bonobocorp.joker.litrocent">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/litrocentwhite"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/litrocentwhite"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Vue.PageAccueil"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Vue.CreateVehicule"
+            android:label="Créer un véhicule">
+        </activity>
+
+        <activity android:name=".Vue.CreatePlein"
+            android:label="Ajouter un plein">
+        </activity>
+        <activity android:name=".Vue.PleinsMainPage"
+            android:label="Mes pleins">
+        </activity>
+
+        <activity android:name=".Vue.CreateEntretien"
+            android:label="Ajouter un entretien">
+        </activity>
+
+        <activity android:name=".Vue.EntretienMainPage"
+            android:label="Mes entretiens">
+        </activity>
+
+        <activity android:name=".Vue.GraphVehicule"
+            android:label="Statistiques du véhicule"
+            android:screenOrientation="landscape"
+            android:configChanges="orientation|keyboardHidden">
+        </activity>
+    </application>
+
+</manifest>

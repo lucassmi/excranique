@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="@string/home"
+        app:showAsAction="always">
+    </item>
+
+    <item
+        android:id="@+id/info"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="@string/info"
+        app:showAsAction="never">
+    </item>
+
+    <item
+        android:id="@+id/pleinDuVehicule"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="@string/pleinDuVehicule"
+        app:showAsAction="never">
+    </item>
+
+    <item
+        android:id="@+id/graphDuVehicule"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="@string/graphDuVehicule"
+        app:showAsAction="never">
+    </item>
+
+    <item
+        android:id="@+id/modifVehicule"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="@string/modifVehicule"
+        app:showAsAction="never">
+    </item>
+</menu>

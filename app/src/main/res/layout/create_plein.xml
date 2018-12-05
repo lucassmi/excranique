@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".Vue.CreatePlein">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/kmageTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="@string/pleinKmageTotal"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/inputKmageTotal"
+            android:hint="@string/hintKmageCompteur"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:inputType="number"/>
+
+        <TextView
+            android:id="@+id/qttyCarb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="@string/pleinQttyCarb"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/inputQttyCarb"
+            android:hint="@string/hintqtty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:inputType="numberDecimal"/>
+        <TextView
+            android:id="@+id/prixTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="@string/pleinPrixTotal"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/inputPrixTotal"
+            android:hint="@string/hintprix"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:inputType="numberDecimal"/>
+        <TextView
+            android:id="@+id/typeCarb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="@string/selectionTypeCarb"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spinnerTypeCarb"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="71dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            />
+
+        <TextView
+            android:id="@+id/dateplein"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="@string/pleinDate"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonSelectDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pleinSelectDate"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+            <!--android:onClick="selectDate"-->
+
+        <TextView
+            android:id="@+id/datepleinSelectionner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="@string/empty"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvReinitConso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="@string/pleinPleinComplet"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+        <RadioGroup
+            android:id="@+id/pleinComplet"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioPleinComplet1"
+                android:text="@string/oui"
+                android:layout_marginStart="150dp"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioPleinComplet0"
+                android:text="@string/non"
+                android:layout_marginStart="150dp"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/buttonAddPlein"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            android:onClick="addPlein"/>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

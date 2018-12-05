@@ -1,0 +1,152 @@
+<resources>
+    <string name="app_name">Litrocent</string>
+
+    <string name="oui">Oui</string>
+    <string name="non">Non</string>
+    <string name="ok">OK</string>
+    <string name="empty"> </string>
+    <string name="valid">VALIDER</string>
+    <string name="erreur">ERREUR</string>
+    <string name="modif">MODIFIER</string>
+    <string name="home">Home</string>
+    <string name="info">Infos sur la page</string>
+    <string name="pleinDuVehicule">Pleins du véhicule</string>
+    <string name="graphDuVehicule">Graphique du véhicule</string>
+    <string name="modifVehicule">Modifier le véhicule</string>
+    <string name="baddata">Données incorrectes</string>
+    <string name="alldata">Tous les champs doivent être renseignés.</string>
+    <string name="alldata2">Tous les champs doivent être renseignés et cohérents.</string>
+    <string name="needhelp">Besoin d\'aide ?</string>
+    <string name="mesVehicule">Mes véhicules</string>
+    <string name="km">km</string>
+    <string name="L100">L/100</string>
+    <string name="L">L</string>
+    <string name="kilometrage">Kilométrage</string>
+    <string name="monnaie">€</string>
+
+    <string name="demoTitle">Version de démonstration</string>
+    <string name="demoContenu">Cette application est une version de démonstration utilisée lors de la soutenance de Lucas SOUMAILLE pour le Titre de la DIRECCTE.\nElle n\'est pas exempt de bugs et ne peut être ni déposée ou commercialisée sans l\'accord de son créateur.\nMerci.</string>
+
+
+    <!--Title Appli-->
+    <string name="modifPlein">Modifier un plein</string>
+    <string name="modifveh">Modifier un véhicule</string>
+
+    <!--Création vehicule-->
+    <string name="AddVehicule">Ajouter un véhicule</string>
+    <string name="vehicule">Véhicules</string>
+    <string name="AddNomVehicule">Entrez un nom pour votre véhicule</string>
+    <string name="selectionTypeVehicule">Sélectionnez le type de véhicule</string>
+    <string name="pasDeVehicule">Aucun véhicule ajouté</string>
+    <string name="premirKmage">Entrez votre kilométrage actuel</string>
+    <string name="premierKmageHint">Kilométrage</string>
+    <string name="needHelpCreaVeh">Le Kilométrage est celui au moment de la création du véhicule, par la suite il faudra renseigner le kilométrage, à chaque plein, qui devra être supérieur à celui ci.\n\nLe nom et le type de véhicule sont à titre indicatifs et servent à différencier les véhicules entre eux."</string>
+
+    <string-array name="typeVehicule">
+        <item>Voiture</item>
+        <item>Moto</item>
+    </string-array>
+
+    <!-- Entretiens-->
+    <string name="AddEntretien">Ajouter un entretien</string>
+    <string name="pasDEntretien">Aucun entretien</string>
+    <string name="nomEntretien">Nom de l\'entretien</string>
+    <string name="kilometrageEntretien">Kilométrage</string>
+    <string name="rgFixeOuNon">Le kilométrage rentré est-il fixe ou est-ce un intervalle de kilomètres ? </string>
+    <string name="fixe">Kilométrage fixe</string>
+    <string name="intervalle">Intervalle de kilomètres</string>
+    <string name="typeEntretien">Sélectionner le type d\'entretien</string>
+    <string name="dateEntretien">Date à laquelle l\'entretien doit être effectué</string>
+    <string name="entretienCourant">Entretien courant</string>
+    <string name="revision">Révision</string>
+    <string name="reparation">Réparation</string>
+    <string name="commentaireEntretien">Commentaires</string>
+    <string-array name="typeEntretienTab">
+        <item>Entretien courant</item>
+        <item>Révision</item>
+        <item>Réparation</item>
+    </string-array>
+    <!-- hint entretien-->
+    <string name="nomEntretienHint">Intitulé de l\'entretien</string>
+    <string name="commentaireEntretienHint">Notes</string>
+    <string name="kilometrageEntretienHint">Intervalle de kilométrage ou kilométrage fixe</string>
+
+    <!--Création Plein-->
+    <string name="AddPlein">Ajouter un plein</string>
+    <string name="pleinKmageTotal">Kilométrage Total Actuel</string>
+    <string name="pleinQttyCarb">Quantité de carburant ajoutée</string>
+    <string name="pleinPrixTotal">Prix total</string>
+    <string name="pleinDate">Date du Plein</string>
+    <string name="pleinSelectDate">Cliquez pour ajouter une date</string>
+    <string name="pleinbtnAjouter">Ajouter mon plein</string>
+    <string name="pleinPleinComplet">Voulez-vous réinitialiser la consommation moyenne ?</string>
+    <string name="infoReinit">Il est conseillé de faire un plein complet lors de la réinitialisation pour une consommation moyenne plus précise par la suite.</string>
+    <string name="hintKmageCompteur">Kilométrage compteur</string>
+    <string name="hintprix">Prix en euros</string>
+    <string name="hintqtty">Quantité en litres</string>
+    <string name="selectionTypeCarb">Sélectionnez votre carburant</string>
+    <string name="badkm">Le kilométrage actuel ne peut pas être inférieur aux kilométrages entrés précédemment.</string>
+    <string name="pasDePlein">Aucun plein renseigné</string>
+    <string-array name="pleinTypeCarb">
+        <item>Sans Plomb 98</item>
+        <item>Sans Plomb 95</item>
+        <item>Sans Plomb 95 E-10</item>
+        <item>Diesel</item>
+    </string-array>
+
+    <!--Mes Pleins-->
+    <string name="mesPleins">Mes Pleins</string>
+    <string name="kmageTotal">Kilométrage\nTotal</string>
+    <string name="kmParcouru">Distance</string>
+    <string name="qttycarb">Litre</string>
+    <string name="prixPlein">Prix</string>
+    <string name="typeCarb">Type\nCarburant</string>
+    <string name="conso">Conso</string>
+    <string name="consoDepuisDernierPlein">Conso 2</string>
+    <string name="consoMoyenne">Conso Moyenne</string>
+    <string name="pleinDateAfficher">Date</string>
+    <string name="supp">Supprimer</string>
+    <string name="modifier">Modifier</string>
+    <string name="infosupp">Attention</string>
+    <string name="textinfoLastPlein">Seul le dernier plein peut être modifié pour garantir l\'intégrité des données.</string>
+    <string name="textinfomodif">Voulez-vous modifier le plein du : </string>
+    <string name="pleinHelpContenu">Si la couleur est verte, cela signifie que la consommation moyenne a été réinitialisée lors de ce plein.
+        \n\nLa distance parcourue est la différence entre le kilométrage total de votre véhicule au moment du dernier plein et le précédent kilométrage total.
+        \n\nLa Conso est la consommation (en Litres au 100km) entre les deux derniers pleins.
+        \n\nLa Conso 2 est une consommation (en Litres au 100km) moyenne sur la durée.
+        Elle est réinitialisée lorsque vous l\'indiquez. Il est conseillé de faire un plein complet lors de la réinitialisation.</string>
+
+    <!--Graph-->
+    <string name="pasDeGrph">2 pleins sont nécessaires pour afficher le graphique.</string>
+    <string name="consoSurClique">Consommation sur point : </string>
+    <string name="consoMoyenneSurClique">Consommation moyenne sur point : </string>
+    <string name="prixSurClique">Prix sur point : </string>
+    <string name="kmSurClique">Kilométrage sur point : </string>
+    <string name="graphHelpContenu">Cliquez sur un point pour afficher les valeurs sur ce point.
+    \n\nCliquez sur un bouton pour afficher ou masquer le graphique correspondant.
+    \n\nIl est conseillé de masquer les graphiques à fortes valeurs pour consulter au mieux les graphiqques de consommation.</string>
+
+    <!-- Expandable View Infos -->
+    <string name="expMesPleins">Mes pleins</string>
+    <string name="expSupprimer">Supprimer</string>
+    <string name="expStats">Statistiques du véhicule</string>
+    <string name="expEntretiens">Mes entretiens</string>
+
+    <!-- TOAST -->
+    <string name="toastSupprimerVeh">Véhicule supprimé avec succès</string>
+    <string name="toastSupprimerPlein">Plein supprimé avec succès</string>
+    <string name="toastAjouterVeh">Véhicule ajouté avec succès</string>
+    <string name="toastModifierVeh">Véhicule modifié avec succès</string>
+    <string name="toastAjouterPlein">Plein ajouté avec succès</string>
+    <string name="toastModifierPlein">Plein modifié avec succès</string>
+
+    <!-- Securité -->
+    <string name="secureSupprimerVeh">Etes-vous sûr de vouloir supprimer le véhicule ?</string>
+    <string name="secureModifierPlein">Modification du dernier plein</string>
+    <string name="secureSupprimerPlein">Etes-vous sûr de vouloir supprimer le plein du </string>
+    <string name="secureTitreSupprimerVeh">Supprimer le véhicule</string>
+    <string name="secureTitreSupprimerPlein">Supprimer le Plein</string>
+    <string name="secureAjouterVehKm">Le kilométrage actuel ne peut pas être inférieur aux kilométrages entrés précédemments.</string>
+    <string name="secureTitreDonnesAddPlein">Données incorrectes</string>
+
+</resources>

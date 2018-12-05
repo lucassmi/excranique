@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!-- AndroidColor -->
+    <color name="colorPrimaire">#3c3f41</color>
+    <color name="colorPrimaireDark">#212324</color>
+    <color name="colorAccentt">#A0A5A7</color>
+
+    <!--TableColor -->
+    <color name="backgroundTable">#CFCFCF</color>
+    <color name="backgroundTableisComplet">#94CC84</color>
+    <color name="backgroundTitreTable">#3c3f41</color>
+    <color name="textTitreTable">#ffffff</color>
+
+    <!--GraphColor-->
+    <color name="colorConso">#EEC000</color>
+    <color name="colorConso2">#0000FF</color>
+
+
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vue.PageAccueil">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--
+            <TextView
+                android:id="@+id/titlePageAccueil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="@string/vehicule"
+                android:textAlignment="center"
+                android:textSize="50dp" />
+                -->
+
+            <ImageView
+                android:id="@+id/imageview"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <TextView
+                android:id="@+id/pasDeVehicule"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:text="@string/pasDeVehicule"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:visibility="visible"/>
+
+        </LinearLayout>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/activity_main_swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="175dp"
+        android:layout_marginBottom="75dp">
+
+        <ExpandableListView
+            android:id="@+id/expandableListView"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"
+            android:divider="@android:color/darker_gray"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="175dp"
+            android:layout_marginBottom="75dp"
+            android:dividerHeight="0.5dp" />
+
+
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+
+
+            <!--
+            <ListView
+                android:id="@+id/listViewMainPage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="40dp"
+                android:visibility="visible">
+            </ListView>
+            -->
+
+<!--
+        </LinearLayout>
+-->
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:text="Créer un Véhicule" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/floatingAddVehicule"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            app:srcCompat="@android:drawable/ic_input_add"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            />
+
+</RelativeLayout>

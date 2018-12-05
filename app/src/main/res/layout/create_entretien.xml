@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".Vue.CreateEntretien">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nomEntretien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="@string/nomEntretien"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/inputNomEntretien"
+            android:hint="@string/nomEntretienHint"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:inputType="text"/>
+
+        <TextView
+            android:id="@+id/comEntretien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="@string/commentaireEntretien"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/inputComEntretien"
+            android:hint="@string/commentaireEntretienHint"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:inputType="text"/>
+
+        <TextView
+            android:id="@+id/typeEntretien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="@string/typeEntretien"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spinnerTypeEntretien"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="71dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            />
+
+
+        <TextView
+            android:id="@+id/kmageEntretien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="@string/kilometrage"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/kmageEntretienInput"
+            android:hint="@string/kilometrageEntretienHint"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:inputType="number"/>
+
+        <TextView
+            android:id="@+id/tvkmageFixeOuNon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="@string/rgFixeOuNon"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+        <RadioGroup
+            android:id="@+id/rgkmageFixeOuNon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioFixe"
+                android:text="@string/fixe"
+                android:layout_marginStart="100dp"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioIntervalle"
+                android:text="@string/intervalle"
+                android:layout_marginStart="100dp"/>
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/dateEntretien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="@string/dateEntretien"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"/>
+
+        <Button
+            android:id="@+id/buttonSelectDateEntretien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pleinSelectDate"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+        <!--android:onClick="selectDate"-->
+
+        <TextView
+            android:id="@+id/dateEntretienSelectionner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="@string/empty"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonAddEntretien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            android:onClick="addEntretien"/>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
